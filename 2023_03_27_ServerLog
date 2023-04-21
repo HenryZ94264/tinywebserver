@@ -1,0 +1,1339 @@
+2023-03-27 16:59:13.156404 [debug]: current slot is 0
+
+2023-03-27 16:59:13.156450 [info]: timer tick
+2023-03-27 16:59:16.251179 [info]: deal with the client(120.236.174.218)
+2023-03-27 16:59:16.251270 [info]: adjust timer once
+2023-03-27 16:59:16.251279 [info]: GET / HTTP/1.1
+2023-03-27 16:59:16.251348 [info]: Host: 47.113.225.92:9006
+2023-03-27 16:59:16.251353 [info]: Connection: keep-alive
+2023-03-27 16:59:16.251358 [info]: Cache-Control: max-age=0
+2023-03-27 16:59:16.251363 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 16:59:16.251367 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 16:59:16.251372 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 16:59:16.251377 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 16:59:16.251381 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 16:59:16.251386 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 16:59:16.251391 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 16:59:16.251396 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 16:59:16.251400 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 16:59:16.251408 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 16:59:16.251412 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 16:59:16.251416 [info]: 
+2023-03-27 16:59:16.251446 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 16:59:16.251451 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 16:59:16.251455 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 16:59:16.251459 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 16:59:16.251607 [info]: send data to the client(120.236.174.218)
+2023-03-27 16:59:16.251639 [info]: adjust timer once
+2023-03-27 16:59:16.301412 [info]: deal with the client(120.236.174.218)
+2023-03-27 16:59:16.301485 [info]: adjust timer once
+2023-03-27 16:59:16.301508 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 16:59:16.301546 [info]: Host: 47.113.225.92:9006
+2023-03-27 16:59:16.301550 [info]: Connection: keep-alive
+2023-03-27 16:59:16.301554 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 16:59:16.301558 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 16:59:16.301561 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 16:59:16.301600 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 16:59:16.301605 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 16:59:16.301608 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 16:59:16.301611 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 16:59:16.301614 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 16:59:16.301617 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 16:59:16.301620 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 16:59:16.301626 [info]: 
+2023-03-27 16:59:16.301656 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 16:59:16.301676 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 16:59:16.301682 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 16:59:16.301697 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 16:59:16.301783 [info]: send data to the client(120.236.174.218)
+2023-03-27 16:59:16.301851 [info]: adjust timer once
+2023-03-27 16:59:18.156585 [debug]: current slot is 1
+
+2023-03-27 16:59:18.156667 [info]: timer tick
+2023-03-27 16:59:23.156824 [debug]: current slot is 2
+
+2023-03-27 16:59:23.156883 [info]: timer tick
+2023-03-27 16:59:28.157015 [debug]: current slot is 3
+
+2023-03-27 16:59:28.157084 [info]: timer tick
+2023-03-27 16:59:33.157230 [debug]: current slot is 4
+
+2023-03-27 16:59:33.157295 [info]: timer tick
+2023-03-27 16:59:38.157739 [debug]: current slot is 5
+
+2023-03-27 16:59:38.157793 [info]: timer tick
+2023-03-27 16:59:43.157917 [debug]: current slot is 6
+
+2023-03-27 16:59:43.157973 [info]: timer tick
+2023-03-27 16:59:48.158127 [debug]: current slot is 7
+
+2023-03-27 16:59:48.158202 [info]: timer tick
+2023-03-27 16:59:53.158333 [debug]: current slot is 8
+
+2023-03-27 16:59:53.158406 [info]: timer tick
+2023-03-27 16:59:58.158535 [debug]: current slot is 9
+
+2023-03-27 16:59:58.158613 [info]: timer tick
+2023-03-27 17:00:03.158754 [debug]: current slot is 10
+
+2023-03-27 17:00:03.158834 [info]: timer tick
+2023-03-27 17:00:08.158954 [debug]: current slot is 11
+
+2023-03-27 17:00:08.159039 [info]: timer tick
+2023-03-27 17:00:13.159164 [debug]: current slot is 12
+
+2023-03-27 17:00:13.159229 [info]: timer tick
+2023-03-27 17:00:18.159384 [debug]: current slot is 13
+
+2023-03-27 17:00:18.159455 [info]: timer tick
+2023-03-27 17:00:23.159677 [debug]: current slot is 14
+
+2023-03-27 17:00:23.159752 [info]: timer tick
+2023-03-27 17:00:28.159927 [debug]: current slot is 15
+
+2023-03-27 17:00:28.159986 [info]: timer tick
+2023-03-27 17:00:33.160129 [debug]: current slot is 16
+
+2023-03-27 17:00:33.160192 [debug]: tick the timer once
+
+2023-03-27 17:00:33.160225 [debug]: delete header in cur_slot
+2023-03-27 17:00:33.160250 [info]: timer tick
+2023-03-27 17:00:38.160387 [debug]: current slot is 17
+
+2023-03-27 17:00:38.160447 [info]: timer tick
+2023-03-27 17:00:43.160600 [debug]: current slot is 18
+
+2023-03-27 17:00:43.160672 [info]: timer tick
+2023-03-27 17:00:48.160833 [debug]: current slot is 19
+
+2023-03-27 17:00:48.160894 [info]: timer tick
+2023-03-27 17:00:53.161059 [debug]: current slot is 20
+
+2023-03-27 17:00:53.161136 [debug]: tick the timer once
+
+2023-03-27 17:00:53.161190 [debug]: delete header in cur_slot
+2023-03-27 17:00:53.161198 [info]: timer tick
+2023-03-27 17:00:58.161338 [debug]: current slot is 21
+
+2023-03-27 17:00:58.161396 [info]: timer tick
+2023-03-27 17:01:03.161529 [debug]: current slot is 22
+
+2023-03-27 17:01:03.161600 [info]: timer tick
+2023-03-27 17:01:08.161739 [debug]: current slot is 23
+
+2023-03-27 17:01:08.161839 [info]: timer tick
+2023-03-27 17:01:11.668178 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:01:11.668247 [info]: adjust timer once
+2023-03-27 17:01:11.668261 [info]: GET / HTTP/1.1
+2023-03-27 17:01:11.668300 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:01:11.668305 [info]: Connection: keep-alive
+2023-03-27 17:01:11.668309 [info]: Cache-Control: max-age=0
+2023-03-27 17:01:11.668314 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:01:11.668319 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:01:11.668323 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:01:11.668328 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:01:11.668332 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:01:11.668337 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:01:11.668343 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:01:11.668348 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:01:11.668367 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:01:11.668376 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:01:11.668379 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:01:11.668382 [info]: 
+2023-03-27 17:01:11.668402 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:01:11.668405 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:01:11.668408 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:01:11.668411 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:01:11.668463 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:01:11.668471 [info]: adjust timer once
+2023-03-27 17:01:11.718156 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:01:11.718250 [info]: adjust timer once
+2023-03-27 17:01:11.718261 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:01:11.718312 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:01:11.718316 [info]: Connection: keep-alive
+2023-03-27 17:01:11.718322 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:01:11.718327 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:01:11.718332 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:01:11.718336 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:01:11.718341 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:01:11.718348 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:01:11.718353 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:01:11.718358 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:01:11.718363 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:01:11.718367 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:01:11.718379 [info]: 
+2023-03-27 17:01:11.718399 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:01:11.718403 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:01:11.718406 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:01:11.718409 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:01:11.718477 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:01:11.718502 [info]: adjust timer once
+2023-03-27 17:01:13.161957 [debug]: current slot is 24
+
+2023-03-27 17:01:13.162018 [info]: timer tick
+2023-03-27 17:01:18.162195 [debug]: current slot is 25
+
+2023-03-27 17:01:18.162266 [info]: timer tick
+2023-03-27 17:01:23.162387 [debug]: current slot is 26
+
+2023-03-27 17:01:23.162450 [info]: timer tick
+2023-03-27 17:01:28.162605 [debug]: current slot is 27
+
+2023-03-27 17:01:28.162691 [info]: timer tick
+2023-03-27 17:01:33.162860 [debug]: current slot is 28
+
+2023-03-27 17:01:33.162919 [info]: timer tick
+2023-03-27 17:01:38.163227 [debug]: current slot is 29
+
+2023-03-27 17:01:38.163399 [info]: timer tick
+2023-03-27 17:01:43.164294 [debug]: current slot is 30
+
+2023-03-27 17:01:43.164465 [info]: timer tick
+2023-03-27 17:01:48.164590 [debug]: current slot is 31
+
+2023-03-27 17:01:48.164667 [info]: timer tick
+2023-03-27 17:01:53.164824 [debug]: current slot is 32
+
+2023-03-27 17:01:53.164884 [info]: timer tick
+2023-03-27 17:01:58.165032 [debug]: current slot is 33
+
+2023-03-27 17:01:58.165089 [info]: timer tick
+2023-03-27 17:02:03.165236 [debug]: current slot is 34
+
+2023-03-27 17:02:03.165299 [info]: timer tick
+2023-03-27 17:02:08.165425 [debug]: current slot is 35
+
+2023-03-27 17:02:08.165500 [info]: timer tick
+2023-03-27 17:02:13.165631 [debug]: current slot is 36
+
+2023-03-27 17:02:13.165700 [info]: timer tick
+2023-03-27 17:02:18.165847 [debug]: current slot is 37
+
+2023-03-27 17:02:18.165921 [info]: timer tick
+2023-03-27 17:02:23.166053 [debug]: current slot is 38
+
+2023-03-27 17:02:23.166119 [info]: timer tick
+2023-03-27 17:02:28.166241 [debug]: current slot is 39
+
+2023-03-27 17:02:28.166297 [debug]: tick the timer once
+
+2023-03-27 17:02:28.166326 [debug]: delete header in cur_slot
+2023-03-27 17:02:28.166333 [info]: timer tick
+2023-03-27 17:02:33.166496 [debug]: current slot is 40
+
+2023-03-27 17:02:33.166562 [info]: timer tick
+2023-03-27 17:02:38.166700 [debug]: current slot is 41
+
+2023-03-27 17:02:38.166758 [info]: timer tick
+2023-03-27 17:02:43.166898 [debug]: current slot is 42
+
+2023-03-27 17:02:43.166961 [info]: timer tick
+2023-03-27 17:02:48.167117 [debug]: current slot is 43
+
+2023-03-27 17:02:48.167176 [info]: timer tick
+2023-03-27 17:02:53.167356 [debug]: current slot is 44
+
+2023-03-27 17:02:53.167398 [info]: timer tick
+2023-03-27 17:02:58.167543 [debug]: current slot is 45
+
+2023-03-27 17:02:58.167606 [info]: timer tick
+2023-03-27 17:03:03.167780 [debug]: current slot is 46
+
+2023-03-27 17:03:03.167851 [info]: timer tick
+2023-03-27 17:03:08.168133 [debug]: current slot is 47
+
+2023-03-27 17:03:08.168194 [info]: timer tick
+2023-03-27 17:03:13.168326 [debug]: current slot is 48
+
+2023-03-27 17:03:13.168390 [info]: timer tick
+2023-03-27 17:03:18.168528 [debug]: current slot is 49
+
+2023-03-27 17:03:18.168599 [info]: timer tick
+2023-03-27 17:03:23.168846 [debug]: current slot is 50
+
+2023-03-27 17:03:23.168921 [info]: timer tick
+2023-03-27 17:03:28.169063 [debug]: current slot is 51
+
+2023-03-27 17:03:28.169122 [info]: timer tick
+2023-03-27 17:03:33.169240 [debug]: current slot is 52
+
+2023-03-27 17:03:33.169298 [info]: timer tick
+2023-03-27 17:03:38.169440 [debug]: current slot is 53
+
+2023-03-27 17:03:38.169497 [info]: timer tick
+2023-03-27 17:03:43.169655 [debug]: current slot is 54
+
+2023-03-27 17:03:43.169717 [info]: timer tick
+2023-03-27 17:03:48.169872 [debug]: current slot is 55
+
+2023-03-27 17:03:48.169933 [info]: timer tick
+2023-03-27 17:03:53.170081 [debug]: current slot is 56
+
+2023-03-27 17:03:53.170141 [info]: timer tick
+2023-03-27 17:03:58.170477 [debug]: current slot is 57
+
+2023-03-27 17:03:58.170710 [info]: timer tick
+2023-03-27 17:04:03.170870 [debug]: current slot is 58
+
+2023-03-27 17:04:03.170929 [info]: timer tick
+2023-03-27 17:04:08.171056 [debug]: current slot is 59
+
+2023-03-27 17:04:08.171125 [info]: timer tick
+2023-03-27 17:04:13.171254 [debug]: current slot is 0
+
+2023-03-27 17:04:13.171318 [info]: timer tick
+2023-03-27 17:04:18.171455 [debug]: current slot is 1
+
+2023-03-27 17:04:18.171517 [info]: timer tick
+2023-03-27 17:04:23.171637 [debug]: current slot is 2
+
+2023-03-27 17:04:23.171722 [info]: timer tick
+2023-03-27 17:04:28.171884 [debug]: current slot is 3
+
+2023-03-27 17:04:28.171944 [info]: timer tick
+2023-03-27 17:04:33.172299 [debug]: current slot is 4
+
+2023-03-27 17:04:33.172503 [info]: timer tick
+2023-03-27 17:04:38.172625 [debug]: current slot is 5
+
+2023-03-27 17:04:38.172697 [info]: timer tick
+2023-03-27 17:04:43.172827 [debug]: current slot is 6
+
+2023-03-27 17:04:43.172892 [info]: timer tick
+2023-03-27 17:04:48.173042 [debug]: current slot is 7
+
+2023-03-27 17:04:48.173117 [info]: timer tick
+2023-03-27 17:04:53.173246 [debug]: current slot is 8
+
+2023-03-27 17:04:53.173306 [info]: timer tick
+2023-03-27 17:04:58.173435 [debug]: current slot is 9
+
+2023-03-27 17:04:58.173494 [info]: timer tick
+2023-03-27 17:05:03.173618 [debug]: current slot is 10
+
+2023-03-27 17:05:03.173693 [info]: timer tick
+2023-03-27 17:05:08.173839 [debug]: current slot is 11
+
+2023-03-27 17:05:08.173896 [info]: timer tick
+2023-03-27 17:05:13.174020 [debug]: current slot is 12
+
+2023-03-27 17:05:13.174077 [info]: timer tick
+2023-03-27 17:05:18.174195 [debug]: current slot is 13
+
+2023-03-27 17:05:18.174258 [info]: timer tick
+2023-03-27 17:05:23.174376 [debug]: current slot is 14
+
+2023-03-27 17:05:23.174433 [info]: timer tick
+2023-03-27 17:05:28.174566 [debug]: current slot is 15
+
+2023-03-27 17:05:28.174623 [debug]: tick the timer once
+
+2023-03-27 17:05:28.174664 [debug]: delete header in cur_slot
+2023-03-27 17:05:28.174671 [info]: timer tick
+2023-03-27 17:05:33.174823 [debug]: current slot is 16
+
+2023-03-27 17:05:33.174904 [info]: timer tick
+2023-03-27 17:05:38.175035 [debug]: current slot is 17
+
+2023-03-27 17:05:38.175097 [info]: timer tick
+2023-03-27 17:05:43.175238 [debug]: current slot is 18
+
+2023-03-27 17:05:43.175301 [info]: timer tick
+2023-03-27 17:05:48.175426 [debug]: current slot is 19
+
+2023-03-27 17:05:48.175485 [info]: timer tick
+2023-03-27 17:05:53.175628 [debug]: current slot is 20
+
+2023-03-27 17:05:53.175707 [info]: timer tick
+2023-03-27 17:05:58.175839 [debug]: current slot is 21
+
+2023-03-27 17:05:58.175894 [info]: timer tick
+2023-03-27 17:06:03.176063 [debug]: current slot is 22
+
+2023-03-27 17:06:03.176135 [info]: timer tick
+2023-03-27 17:06:08.176277 [debug]: current slot is 23
+
+2023-03-27 17:06:08.176352 [info]: timer tick
+2023-03-27 17:06:13.176474 [debug]: current slot is 24
+
+2023-03-27 17:06:13.176534 [info]: timer tick
+2023-03-27 17:06:18.176681 [debug]: current slot is 25
+
+2023-03-27 17:06:18.176780 [info]: timer tick
+2023-03-27 17:06:23.176904 [debug]: current slot is 26
+
+2023-03-27 17:06:23.176964 [info]: timer tick
+2023-03-27 17:06:28.177111 [debug]: current slot is 27
+
+2023-03-27 17:06:28.177172 [info]: timer tick
+2023-03-27 17:06:33.177330 [debug]: current slot is 28
+
+2023-03-27 17:06:33.177405 [info]: timer tick
+2023-03-27 17:06:38.177532 [debug]: current slot is 29
+
+2023-03-27 17:06:38.177590 [info]: timer tick
+2023-03-27 17:06:43.177758 [debug]: current slot is 30
+
+2023-03-27 17:06:43.177832 [info]: timer tick
+2023-03-27 17:06:48.177982 [debug]: current slot is 31
+
+2023-03-27 17:06:48.178041 [info]: timer tick
+2023-03-27 17:06:53.178183 [debug]: current slot is 32
+
+2023-03-27 17:06:53.178244 [info]: timer tick
+2023-03-27 17:06:58.178403 [debug]: current slot is 33
+
+2023-03-27 17:06:58.178487 [info]: timer tick
+2023-03-27 17:07:03.178695 [debug]: current slot is 34
+
+2023-03-27 17:07:03.178780 [info]: timer tick
+2023-03-27 17:07:08.178903 [debug]: current slot is 35
+
+2023-03-27 17:07:08.178962 [info]: timer tick
+2023-03-27 17:07:13.179234 [debug]: current slot is 36
+
+2023-03-27 17:07:13.179309 [info]: timer tick
+2023-03-27 17:07:18.179453 [debug]: current slot is 37
+
+2023-03-27 17:07:18.179522 [info]: timer tick
+2023-03-27 17:07:23.179665 [debug]: current slot is 38
+
+2023-03-27 17:07:23.179758 [info]: timer tick
+2023-03-27 17:07:28.179875 [debug]: current slot is 39
+
+2023-03-27 17:07:28.179913 [info]: timer tick
+2023-03-27 17:07:33.180025 [debug]: current slot is 40
+
+2023-03-27 17:07:33.180079 [info]: timer tick
+2023-03-27 17:07:38.180307 [debug]: current slot is 41
+
+2023-03-27 17:07:38.180375 [info]: timer tick
+2023-03-27 17:07:43.180596 [debug]: current slot is 42
+
+2023-03-27 17:07:43.180673 [info]: timer tick
+2023-03-27 17:07:48.180833 [debug]: current slot is 43
+
+2023-03-27 17:07:48.180903 [info]: timer tick
+2023-03-27 17:07:53.181043 [debug]: current slot is 44
+
+2023-03-27 17:07:53.181107 [info]: timer tick
+2023-03-27 17:07:58.181230 [debug]: current slot is 45
+
+2023-03-27 17:07:58.181288 [info]: timer tick
+2023-03-27 17:08:03.181413 [debug]: current slot is 46
+
+2023-03-27 17:08:03.181478 [info]: timer tick
+2023-03-27 17:08:08.181617 [debug]: current slot is 47
+
+2023-03-27 17:08:08.181688 [info]: timer tick
+2023-03-27 17:08:13.181847 [debug]: current slot is 48
+
+2023-03-27 17:08:13.181914 [info]: timer tick
+2023-03-27 17:08:18.182129 [debug]: current slot is 49
+
+2023-03-27 17:08:18.182192 [info]: timer tick
+2023-03-27 17:08:23.182321 [debug]: current slot is 50
+
+2023-03-27 17:08:23.182379 [info]: timer tick
+2023-03-27 17:08:28.182489 [debug]: current slot is 51
+
+2023-03-27 17:08:28.182540 [info]: timer tick
+2023-03-27 17:08:33.182684 [debug]: current slot is 52
+
+2023-03-27 17:08:33.182753 [info]: timer tick
+2023-03-27 17:08:47.081355 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:08:47.081405 [info]: adjust timer once
+2023-03-27 17:08:47.081419 [info]: GET / HTTP/1.1
+2023-03-27 17:08:47.081517 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:08:47.081522 [info]: Connection: keep-alive
+2023-03-27 17:08:47.081525 [info]: Cache-Control: max-age=0
+2023-03-27 17:08:47.081528 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:08:47.081531 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:08:47.081535 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:08:47.081538 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:08:47.081541 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:08:47.081545 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:08:47.081548 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:08:47.081551 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:08:47.081555 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:08:47.081561 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:08:47.081564 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:08:47.081567 [info]: 
+2023-03-27 17:08:47.081593 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:08:47.081596 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:08:47.081599 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:08:47.081616 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:08:47.081669 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:08:47.081688 [info]: adjust timer once
+2023-03-27 17:08:47.131395 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:08:47.131525 [info]: adjust timer once
+2023-03-27 17:08:47.131559 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:08:47.131589 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:08:47.131592 [info]: Connection: keep-alive
+2023-03-27 17:08:47.131596 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:08:47.131602 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:08:47.131610 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:08:47.131614 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:08:47.131622 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:08:47.131626 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:08:47.131632 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:08:47.131643 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:08:47.131694 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:08:47.131700 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:08:47.131712 [info]: 
+2023-03-27 17:08:47.131795 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:08:47.131865 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:08:47.131901 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:08:47.131911 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:08:47.132121 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:08:47.132139 [info]: adjust timer once
+2023-03-27 17:08:49.821475 [debug]: current slot is 0
+
+2023-03-27 17:08:49.821564 [info]: timer tick
+2023-03-27 17:08:54.821692 [debug]: current slot is 1
+
+2023-03-27 17:08:54.821766 [info]: timer tick
+2023-03-27 17:08:59.821920 [debug]: current slot is 2
+
+2023-03-27 17:08:59.821997 [info]: timer tick
+2023-03-27 17:09:04.822126 [debug]: current slot is 3
+
+2023-03-27 17:09:04.822184 [info]: timer tick
+2023-03-27 17:09:09.822314 [debug]: current slot is 4
+
+2023-03-27 17:09:09.822377 [info]: timer tick
+2023-03-27 17:09:14.822514 [debug]: current slot is 5
+
+2023-03-27 17:09:14.822579 [info]: timer tick
+2023-03-27 17:09:19.822725 [debug]: current slot is 6
+
+2023-03-27 17:09:19.822789 [info]: timer tick
+2023-03-27 17:09:24.822914 [debug]: current slot is 7
+
+2023-03-27 17:09:24.822978 [info]: timer tick
+2023-03-27 17:09:29.823136 [debug]: current slot is 8
+
+2023-03-27 17:09:29.823198 [info]: timer tick
+2023-03-27 17:09:34.823360 [debug]: current slot is 9
+
+2023-03-27 17:09:34.823454 [info]: timer tick
+2023-03-27 17:09:39.823569 [debug]: current slot is 10
+
+2023-03-27 17:09:39.823635 [info]: timer tick
+2023-03-27 17:09:44.823784 [debug]: current slot is 11
+
+2023-03-27 17:09:44.823850 [info]: timer tick
+2023-03-27 17:09:49.823963 [debug]: current slot is 12
+
+2023-03-27 17:09:49.824020 [info]: timer tick
+2023-03-27 17:09:54.824145 [debug]: current slot is 13
+
+2023-03-27 17:09:54.824204 [info]: timer tick
+2023-03-27 17:09:59.824333 [debug]: current slot is 14
+
+2023-03-27 17:09:59.824393 [info]: timer tick
+2023-03-27 17:10:04.824620 [debug]: current slot is 15
+
+2023-03-27 17:10:04.824708 [debug]: tick the timer once
+
+2023-03-27 17:10:04.824741 [debug]: delete header in cur_slot
+2023-03-27 17:10:04.824745 [debug]: tick the timer once
+
+2023-03-27 17:10:04.824780 [debug]: delete header in cur_slot
+2023-03-27 17:10:04.824786 [info]: timer tick
+2023-03-27 17:10:09.824922 [debug]: current slot is 16
+
+2023-03-27 17:10:09.824982 [info]: timer tick
+2023-03-27 17:10:14.825110 [debug]: current slot is 17
+
+2023-03-27 17:10:14.825170 [info]: timer tick
+2023-03-27 17:10:19.825301 [debug]: current slot is 18
+
+2023-03-27 17:10:19.825371 [info]: timer tick
+2023-03-27 17:10:24.825494 [debug]: current slot is 19
+
+2023-03-27 17:10:24.825552 [info]: timer tick
+2023-03-27 17:10:29.825671 [debug]: current slot is 20
+
+2023-03-27 17:10:29.825729 [info]: timer tick
+2023-03-27 17:10:34.825840 [debug]: current slot is 21
+
+2023-03-27 17:10:49.654654 [debug]: current slot is 0
+
+2023-03-27 17:10:49.654701 [info]: timer tick
+2023-03-27 17:10:50.973184 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:10:50.973234 [info]: adjust timer once
+2023-03-27 17:10:50.973243 [info]: GET / HTTP/1.1
+2023-03-27 17:10:50.973285 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:10:50.973290 [info]: Connection: keep-alive
+2023-03-27 17:10:50.973293 [info]: Cache-Control: max-age=0
+2023-03-27 17:10:50.973296 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:10:50.973299 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:10:50.973307 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:10:50.973311 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:10:50.973314 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:10:50.973318 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:10:50.973321 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:10:50.973324 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:10:50.973328 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:10:50.973332 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:10:50.973336 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:10:50.973339 [info]: 
+2023-03-27 17:10:50.973357 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:10:50.973361 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:10:50.973364 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:10:50.973367 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:10:50.973459 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:10:50.973498 [info]: adjust timer once
+2023-03-27 17:10:51.028297 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:10:51.028371 [info]: adjust timer once
+2023-03-27 17:10:51.028466 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:10:51.028508 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:10:51.028512 [info]: Connection: keep-alive
+2023-03-27 17:10:51.028517 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:10:51.028522 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:10:51.028532 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:10:51.028539 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:10:51.028544 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:10:51.028548 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:10:51.028551 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:10:51.028554 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:10:51.028558 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:10:51.028561 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:10:51.028574 [info]: 
+2023-03-27 17:10:51.028596 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:10:51.028601 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:10:51.028605 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:10:51.028609 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:10:51.028710 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:10:51.028756 [info]: adjust timer once
+2023-03-27 17:10:54.654860 [debug]: current slot is 1
+
+2023-03-27 17:10:54.654919 [info]: timer tick
+2023-03-27 17:10:59.655043 [debug]: current slot is 2
+
+2023-03-27 17:10:59.655102 [info]: timer tick
+2023-03-27 17:11:04.657560 [debug]: current slot is 3
+
+2023-03-27 17:11:04.657633 [info]: timer tick
+2023-03-27 17:11:09.657794 [debug]: current slot is 4
+
+2023-03-27 17:11:09.657856 [info]: timer tick
+2023-03-27 17:11:14.658010 [debug]: current slot is 5
+
+2023-03-27 17:11:14.658069 [info]: timer tick
+2023-03-27 17:11:19.658205 [debug]: current slot is 6
+
+2023-03-27 17:11:19.658264 [info]: timer tick
+2023-03-27 17:11:24.658386 [debug]: current slot is 7
+
+2023-03-27 17:11:24.658439 [info]: timer tick
+2023-03-27 17:11:29.658577 [debug]: current slot is 8
+
+2023-03-27 17:11:29.658643 [info]: timer tick
+2023-03-27 17:11:34.658798 [debug]: current slot is 9
+
+2023-03-27 17:11:34.658861 [info]: timer tick
+2023-03-27 17:11:48.979110 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:11:48.979158 [info]: adjust timer once
+2023-03-27 17:11:48.979170 [info]: GET / HTTP/1.1
+2023-03-27 17:11:48.979289 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:11:48.979296 [info]: Connection: keep-alive
+2023-03-27 17:11:48.979300 [info]: Cache-Control: max-age=0
+2023-03-27 17:11:48.979303 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:11:48.979306 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:11:48.979309 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:11:48.979313 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:11:48.979316 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:11:48.979320 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:11:48.979323 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:11:48.979326 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:11:48.979329 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:11:48.979335 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:11:48.979338 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:11:48.979341 [info]: 
+2023-03-27 17:11:48.979366 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:11:48.979394 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:11:48.979411 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:11:48.979417 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:11:48.979489 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:11:48.979496 [info]: adjust timer once
+2023-03-27 17:11:49.024412 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:11:49.024507 [info]: adjust timer once
+2023-03-27 17:11:49.024529 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:11:49.024556 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:11:49.024559 [info]: Connection: keep-alive
+2023-03-27 17:11:49.024563 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:11:49.024566 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:11:49.024570 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:11:49.024573 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:11:49.024576 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:11:49.024579 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:11:49.024582 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:11:49.024585 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:11:49.024588 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:11:49.024591 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:11:49.024596 [info]: 
+2023-03-27 17:11:49.024615 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:11:49.024619 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:11:49.024622 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:11:49.024625 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:11:49.024690 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:11:49.024714 [info]: adjust timer once
+2023-03-27 17:11:51.513609 [debug]: current slot is 0
+
+2023-03-27 17:11:51.513686 [info]: timer tick
+2023-03-27 17:11:56.513855 [debug]: current slot is 1
+
+2023-03-27 17:11:56.513926 [info]: timer tick
+2023-03-27 17:12:01.514063 [debug]: current slot is 2
+
+2023-03-27 17:12:01.514122 [info]: timer tick
+2023-03-27 17:12:06.514244 [debug]: current slot is 3
+
+2023-03-27 17:12:06.514304 [info]: timer tick
+2023-03-27 17:12:11.514434 [debug]: current slot is 4
+
+2023-03-27 17:12:11.514501 [info]: timer tick
+2023-03-27 17:12:15.912279 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:12:15.912359 [info]: adjust timer once
+2023-03-27 17:12:15.912378 [info]: GET / HTTP/1.1
+2023-03-27 17:12:15.912422 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:12:15.912431 [info]: Connection: keep-alive
+2023-03-27 17:12:15.912438 [info]: Cache-Control: max-age=0
+2023-03-27 17:12:15.912446 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:12:15.912453 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:12:15.912461 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:12:15.912464 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:12:15.912468 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:12:15.912471 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:12:15.912475 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:12:15.912478 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:12:15.912481 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:12:15.912486 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:12:15.912489 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:12:15.912493 [info]: 
+2023-03-27 17:12:15.912527 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:12:15.912530 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:12:15.912533 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:12:15.912539 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:12:15.912608 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:12:15.912618 [info]: adjust timer once
+2023-03-27 17:12:15.961961 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:12:15.962040 [info]: adjust timer once
+2023-03-27 17:12:15.962059 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:12:15.962088 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:12:15.962091 [info]: Connection: keep-alive
+2023-03-27 17:12:15.962095 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:12:15.962099 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:12:15.962102 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:12:15.962106 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:12:15.962110 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:12:15.962114 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:12:15.962119 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:12:15.962122 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:12:15.962127 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:12:15.962131 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:12:15.962137 [info]: 
+2023-03-27 17:12:15.962166 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:12:15.962170 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:12:15.962174 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:12:15.962177 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:12:15.962229 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:12:15.962246 [info]: adjust timer once
+2023-03-27 17:12:16.514624 [debug]: current slot is 5
+
+2023-03-27 17:12:16.514691 [info]: timer tick
+2023-03-27 17:12:21.514821 [debug]: current slot is 6
+
+2023-03-27 17:12:21.514893 [info]: timer tick
+2023-03-27 17:12:26.515060 [debug]: current slot is 7
+
+2023-03-27 17:12:26.515109 [info]: timer tick
+2023-03-27 17:12:31.515326 [debug]: current slot is 8
+
+2023-03-27 17:12:31.515395 [info]: timer tick
+2023-03-27 17:12:36.515559 [debug]: current slot is 9
+
+2023-03-27 17:12:36.515623 [info]: timer tick
+2023-03-27 17:12:41.515755 [debug]: current slot is 10
+
+2023-03-27 17:12:41.515818 [info]: timer tick
+2023-03-27 17:12:46.515999 [debug]: current slot is 11
+
+2023-03-27 17:12:46.516050 [info]: timer tick
+2023-03-27 17:13:00.034988 [debug]: current slot is 0
+
+2023-03-27 17:13:00.035105 [info]: timer tick
+2023-03-27 17:13:05.035231 [debug]: current slot is 1
+
+2023-03-27 17:13:05.035308 [info]: timer tick
+2023-03-27 17:13:07.582209 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:13:07.582287 [info]: adjust timer once
+2023-03-27 17:13:07.582305 [info]: GET / HTTP/1.1
+2023-03-27 17:13:07.582348 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:13:07.582352 [info]: Connection: keep-alive
+2023-03-27 17:13:07.582355 [info]: Cache-Control: max-age=0
+2023-03-27 17:13:07.582360 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:13:07.582365 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:13:07.582369 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:13:07.582374 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:13:07.582379 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:13:07.582385 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:13:07.582408 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:13:07.582418 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:13:07.582421 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:13:07.582427 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:13:07.582430 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:13:07.582433 [info]: 
+2023-03-27 17:13:07.582467 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:13:07.582486 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:13:07.582490 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:13:07.582493 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:13:07.582556 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:13:07.582569 [info]: adjust timer once
+2023-03-27 17:13:07.632052 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:13:07.632119 [info]: adjust timer once
+2023-03-27 17:13:07.632131 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:13:07.632165 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:13:07.632169 [info]: Connection: keep-alive
+2023-03-27 17:13:07.632172 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:13:07.632176 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:13:07.632180 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:13:07.632183 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:13:07.632186 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:13:07.632189 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:13:07.632192 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:13:07.632196 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:13:07.632218 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:13:07.632223 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:13:07.632234 [info]: 
+2023-03-27 17:13:07.632253 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:13:07.632257 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:13:07.632260 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:13:07.632263 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:13:07.632323 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:13:07.632361 [info]: adjust timer once
+2023-03-27 17:13:10.035432 [debug]: current slot is 2
+
+2023-03-27 17:13:10.035492 [info]: timer tick
+2023-03-27 17:13:15.035655 [debug]: current slot is 3
+
+2023-03-27 17:13:15.035727 [info]: timer tick
+2023-03-27 17:13:20.035873 [debug]: current slot is 4
+
+2023-03-27 17:13:20.035934 [info]: timer tick
+2023-03-27 17:13:25.036085 [debug]: current slot is 5
+
+2023-03-27 17:13:25.036162 [info]: timer tick
+2023-03-27 17:13:30.036300 [debug]: current slot is 6
+
+2023-03-27 17:13:30.036360 [info]: timer tick
+2023-03-27 17:13:35.036471 [debug]: current slot is 7
+
+2023-03-27 17:13:35.036529 [info]: timer tick
+2023-03-27 17:13:40.036704 [debug]: current slot is 8
+
+2023-03-27 17:13:40.036766 [info]: timer tick
+2023-03-27 17:13:45.036913 [debug]: current slot is 9
+
+2023-03-27 17:13:45.036973 [info]: timer tick
+2023-03-27 17:13:50.037111 [debug]: current slot is 10
+
+2023-03-27 17:13:50.037171 [info]: timer tick
+2023-03-27 17:13:55.037294 [debug]: current slot is 11
+
+2023-03-27 17:13:55.037367 [info]: timer tick
+2023-03-27 17:14:00.037518 [debug]: current slot is 12
+
+2023-03-27 17:14:00.037597 [info]: timer tick
+2023-03-27 17:14:05.037752 [debug]: current slot is 13
+
+2023-03-27 17:14:05.037828 [info]: timer tick
+2023-03-27 17:14:10.037950 [debug]: current slot is 14
+
+2023-03-27 17:14:10.038012 [info]: timer tick
+2023-03-27 17:14:15.038145 [debug]: current slot is 15
+
+2023-03-27 17:14:15.038203 [debug]: tick the timer once
+
+2023-03-27 17:14:15.038229 [debug]: delete header in cur_slot
+2023-03-27 17:14:15.038235 [info]: timer tick
+2023-03-27 17:14:20.038375 [debug]: current slot is 16
+
+2023-03-27 17:14:20.038445 [info]: timer tick
+2023-03-27 17:14:25.038574 [debug]: current slot is 17
+
+2023-03-27 17:14:25.038612 [info]: timer tick
+2023-03-27 17:14:30.038748 [debug]: current slot is 18
+
+2023-03-27 17:14:30.038820 [info]: timer tick
+2023-03-27 17:14:35.054965 [debug]: current slot is 19
+
+2023-03-27 17:14:35.055027 [info]: timer tick
+2023-03-27 17:14:40.055150 [debug]: current slot is 20
+
+2023-03-27 17:14:40.055207 [info]: timer tick
+2023-03-27 17:14:45.055362 [debug]: current slot is 21
+
+2023-03-27 17:14:45.055438 [info]: timer tick
+2023-03-27 17:14:50.055584 [debug]: current slot is 22
+
+2023-03-27 17:14:50.055655 [info]: timer tick
+2023-03-27 17:14:55.055768 [debug]: current slot is 23
+
+2023-03-27 17:14:55.055830 [debug]: tick the timer once
+
+2023-03-27 17:14:55.055866 [debug]: delete header in cur_slot
+2023-03-27 17:14:55.055872 [info]: timer tick
+2023-03-27 17:17:27.624605 [debug]: current ts is: 3
+2023-03-27 17:17:36.633948 [debug]: current ts is: 3
+2023-03-27 17:17:36.634005 [debug]: current slot is 0
+
+2023-03-27 17:17:36.634013 [info]: timer tick
+2023-03-27 17:17:36.634027 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:17:36.634037 [info]: adjust timer once
+2023-03-27 17:17:36.634194 [info]: GET / HTTP/1.1
+2023-03-27 17:17:36.634246 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:17:36.634252 [info]: Connection: keep-alive
+2023-03-27 17:17:36.634255 [info]: Cache-Control: max-age=0
+2023-03-27 17:17:36.634258 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:17:36.634262 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:17:36.634265 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:17:36.634268 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:17:36.634272 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:17:36.634276 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:17:36.634279 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:17:36.634283 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:17:36.634286 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:17:36.634291 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:17:36.634294 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:17:36.634297 [info]: 
+2023-03-27 17:17:36.634320 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:17:36.634324 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:17:36.634327 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:17:36.634330 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:17:36.634526 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:17:36.634563 [info]: adjust timer once
+2023-03-27 17:17:36.689491 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:17:36.689573 [info]: adjust timer once
+2023-03-27 17:17:36.689590 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:17:36.689616 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:17:36.689624 [info]: Connection: keep-alive
+2023-03-27 17:17:36.689627 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:17:36.689631 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:17:36.689635 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:17:36.689638 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:17:36.689641 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:17:36.689653 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:17:36.689657 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:17:36.689697 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:17:36.689706 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:17:36.689710 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:17:36.689719 [info]: 
+2023-03-27 17:17:36.689738 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:17:36.689742 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:17:36.689745 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:17:36.689748 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:17:36.689803 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:17:36.689822 [info]: adjust timer once
+2023-03-27 17:17:41.634129 [debug]: current slot is 1
+
+2023-03-27 17:17:41.634185 [info]: timer tick
+2023-03-27 17:17:46.634312 [debug]: current slot is 2
+
+2023-03-27 17:17:46.634369 [info]: timer tick
+2023-03-27 17:17:51.634509 [debug]: current slot is 3
+
+2023-03-27 17:17:51.634575 [debug]: tick the timer once
+
+2023-03-27 17:17:51.634609 [debug]: delete header in cur_slot
+2023-03-27 17:17:51.634616 [info]: timer tick
+2023-03-27 17:17:56.634764 [debug]: current slot is 4
+
+2023-03-27 17:17:56.634833 [info]: timer tick
+2023-03-27 17:18:01.634955 [debug]: current slot is 5
+
+2023-03-27 17:18:01.635008 [info]: timer tick
+2023-03-27 17:18:06.635139 [debug]: current slot is 6
+
+2023-03-27 17:18:06.635197 [info]: timer tick
+2023-03-27 17:18:11.635317 [debug]: current slot is 7
+
+2023-03-27 17:18:11.635386 [info]: timer tick
+2023-03-27 17:18:16.635529 [debug]: current slot is 8
+
+2023-03-27 17:18:16.635584 [info]: timer tick
+2023-03-27 17:18:21.635711 [debug]: current slot is 9
+
+2023-03-27 17:18:21.635768 [info]: timer tick
+2023-03-27 17:18:26.635901 [debug]: current slot is 10
+
+2023-03-27 17:18:26.635961 [info]: timer tick
+2023-03-27 17:18:31.636088 [debug]: current slot is 11
+
+2023-03-27 17:18:31.636154 [info]: timer tick
+2023-03-27 17:18:36.636390 [debug]: current slot is 12
+
+2023-03-27 17:33:46.120030 [debug]: current ts is: 3
+2023-03-27 17:33:46.120154 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:33:46.120205 [info]: adjust timer once
+2023-03-27 17:33:46.120230 [info]: GET / HTTP/1.1
+2023-03-27 17:33:46.120304 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:33:46.120310 [info]: Connection: keep-alive
+2023-03-27 17:33:46.120313 [info]: Cache-Control: max-age=0
+2023-03-27 17:33:46.120316 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-03-27 17:33:46.120320 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 17:33:46.120323 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 17:33:46.120343 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:33:46.120347 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:33:46.120351 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:33:46.120367 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 17:33:46.120371 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:33:46.120374 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:33:46.120379 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:33:46.120383 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:33:46.120386 [info]: 
+2023-03-27 17:33:46.120410 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:33:46.120414 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 17:33:46.120417 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 17:33:46.120420 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 17:33:46.120853 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:33:46.120880 [info]: adjust timer once
+2023-03-27 17:33:46.129093 [debug]: current ts is: 3
+2023-03-27 17:33:46.212160 [info]: deal with the client(120.236.174.218)
+2023-03-27 17:33:46.212230 [info]: adjust timer once
+2023-03-27 17:33:46.212283 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 17:33:46.212324 [info]: Host: 47.113.225.92:9006
+2023-03-27 17:33:46.212329 [info]: Connection: keep-alive
+2023-03-27 17:33:46.212333 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:33:46.212338 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 17:33:46.212342 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:33:46.212346 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 17:33:46.212350 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 17:33:46.212378 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 17:33:46.212384 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 17:33:46.212389 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 17:33:46.212394 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:33:46.212399 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 17:33:46.212408 [info]: 
+2023-03-27 17:33:46.212433 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 17:33:46.212437 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 17:33:46.212441 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 17:33:46.212445 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 17:33:46.213184 [info]: send data to the client(120.236.174.218)
+2023-03-27 17:33:46.213223 [info]: adjust timer once
+2023-03-27 17:33:47.595904 [debug]: current slot is 0
+
+2023-03-27 17:33:47.595957 [info]: timer tick
+2023-03-27 17:33:52.596066 [debug]: current slot is 1
+
+2023-03-27 17:33:52.596125 [info]: timer tick
+2023-03-27 17:33:57.596249 [debug]: current slot is 2
+
+2023-03-27 17:33:57.596306 [info]: timer tick
+2023-03-27 17:34:02.596459 [debug]: current slot is 3
+
+2023-03-27 17:34:02.596521 [debug]: tick the timer once
+
+2023-03-27 17:34:02.596549 [debug]: delete header in cur_slot
+2023-03-27 17:34:02.596555 [info]: timer tick
+2023-03-27 17:34:07.596666 [debug]: current slot is 4
+
+2023-03-27 17:34:07.596742 [info]: timer tick
+2023-03-27 17:34:51.112895 [debug]: current slot is 0
+
+2023-03-27 17:34:51.112937 [info]: timer tick
+2023-03-27 19:07:17.148114 [debug]: current slot is 0
+
+2023-03-27 19:07:17.148249 [info]: timer tick
+2023-03-27 19:07:22.148296 [debug]: current slot is 1
+
+2023-03-27 19:07:22.148372 [info]: timer tick
+2023-03-27 19:07:27.148419 [debug]: current slot is 2
+
+2023-03-27 19:07:27.148481 [info]: timer tick
+2023-03-27 19:07:32.148518 [debug]: current slot is 3
+
+2023-03-27 19:07:32.148577 [info]: timer tick
+2023-03-27 19:07:37.148617 [debug]: current slot is 4
+
+2023-03-27 19:07:37.148693 [info]: timer tick
+2023-03-27 19:07:42.148740 [debug]: current slot is 5
+
+2023-03-27 19:07:42.148809 [info]: timer tick
+2023-03-27 19:07:47.148856 [debug]: current slot is 6
+
+2023-03-27 19:07:47.148928 [info]: timer tick
+2023-03-27 19:07:52.149009 [debug]: current slot is 7
+
+2023-03-27 19:07:52.149195 [info]: timer tick
+2023-03-27 19:07:57.149413 [debug]: current slot is 8
+
+2023-03-27 19:07:57.149602 [info]: timer tick
+2023-03-27 19:08:02.149649 [debug]: current slot is 9
+
+2023-03-27 19:08:02.149715 [info]: timer tick
+2023-03-27 19:08:07.149765 [debug]: current slot is 10
+
+2023-03-27 19:08:07.149828 [info]: timer tick
+2023-03-27 19:08:12.149877 [debug]: current slot is 11
+
+2023-03-27 19:08:12.149960 [info]: timer tick
+2023-03-27 19:08:17.167204 [debug]: current slot is 12
+
+2023-03-27 19:08:17.167311 [info]: timer tick
+2023-03-27 19:08:20.885071 [debug]: current ts is: 16
+2023-03-27 19:08:20.887014 [info]: deal with the client(120.236.174.250)
+2023-03-27 19:08:20.887054 [info]: adjust timer once
+2023-03-27 19:08:20.887065 [info]: GET / HTTP/1.1
+2023-03-27 19:08:20.887151 [info]: Host: 47.113.225.92:9006
+2023-03-27 19:08:20.887160 [info]: Connection: keep-alive
+2023-03-27 19:08:20.887166 [info]: Upgrade-Insecure-Requests: 1
+2023-03-27 19:08:20.887172 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-03-27 19:08:20.887178 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 19:08:20.887186 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 19:08:20.887192 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 19:08:20.887198 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-03-27 19:08:20.887204 [info]: Purpose: prefetch
+2023-03-27 19:08:20.887216 [info]: oop!unknow header: Purpose: prefetch
+2023-03-27 19:08:20.887222 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 19:08:20.887227 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 19:08:20.887233 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 19:08:20.887238 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 19:08:20.887244 [info]: 
+2023-03-27 19:08:20.887270 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 19:08:20.887276 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2023-03-27 19:08:20.887282 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2023-03-27 19:08:20.887287 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2023-03-27 19:08:20.887379 [info]: send data to the client(120.236.174.250)
+2023-03-27 19:08:20.887394 [info]: adjust timer once
+2023-03-27 19:08:22.167351 [debug]: current slot is 13
+
+2023-03-27 19:08:22.167432 [info]: timer tick
+2023-03-27 19:08:22.664789 [debug]: current ts is: 17
+2023-03-27 19:08:22.704476 [info]: deal with the client(120.236.174.250)
+2023-03-27 19:08:22.704538 [info]: adjust timer once
+2023-03-27 19:08:22.704646 [info]: GET /favicon.ico HTTP/1.1
+2023-03-27 19:08:22.704692 [info]: Host: 47.113.225.92:9006
+2023-03-27 19:08:22.704698 [info]: Connection: keep-alive
+2023-03-27 19:08:22.704704 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 19:08:22.704710 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
+2023-03-27 19:08:22.704717 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 19:08:22.704722 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-03-27 19:08:22.704728 [info]: Referer: http://47.113.225.92:9006/
+2023-03-27 19:08:22.704733 [info]: oop!unknow header: Referer: http://47.113.225.92:9006/
+2023-03-27 19:08:22.704738 [info]: Accept-Encoding: gzip, deflate
+2023-03-27 19:08:22.704744 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-03-27 19:08:22.704749 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 19:08:22.704754 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-03-27 19:08:22.704760 [info]: 
+2023-03-27 19:08:22.704779 [info]: request:HTTP/1.1 200 OK
+
+2023-03-27 19:08:22.704785 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2023-03-27 19:08:22.704791 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2023-03-27 19:08:22.704796 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-03-27 19:08:22.705056 [info]: send data to the client(120.236.174.250)
+2023-03-27 19:08:22.705081 [info]: adjust timer once
+2023-03-27 19:08:27.167479 [debug]: current slot is 14
+
+2023-03-27 19:08:27.167542 [info]: timer tick
