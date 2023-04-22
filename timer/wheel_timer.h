@@ -5,40 +5,33 @@
 #include <netinet/in.h>
 #include <stdio.h>
 #include <iostream>
-// #include "lst_timer.h"
 #include <pthread.h>
+#include "base_timer.h"
 
 #define BUFFER_SIZE 64  
 
-class tw_timer;
-
-// // 包含一个client address, 连接的sockfd以及定时器
-// struct client_data
-// {
-//     sockaddr_in address;    // 客户端socket地址
-//     int sockfd;     // socket文件描述符
-//     // util_timer *timer;      // 定时器
-//     tw_timer *timer;
-// };
 
 // 定时器类
-class tw_timer
+class tw_timer : public base_timer
 {
 public:
     tw_timer(int rot, int ts): prev(nullptr), next(nullptr), rotation(rot), time_slot(ts) {};
+    tw_timer(): prev(nullptr), next(nullptr), rotation(-1), time_slot(-1) {};
+    virtual ~tw_timer() override {};
+    void reset_tw_timer(const int& rot, const int& ts)
+    {
+        rotation = rot;
+        time_slot = ts;
+    }
 
 public:
-    // 回调函数
-    void (* cb_func)(client_data*);
-    client_data *user_data;     // 客户数据
     tw_timer *prev;
     tw_timer *next;
     int rotation;   // 记录定时器在时间轮转多少圈后生效
     int time_slot;  // 记录定时器属于时间轮上哪个槽
-
 };
 
-class time_wheel
+class time_wheel : public timer_structure
 {
 public:
     time_wheel(int m_close_log) : cur_slot(0), m_close_log(m_close_log)
@@ -49,8 +42,9 @@ public:
         }
     }
     
-    time_wheel(): cur_slot(0), m_close_log(1)
+    time_wheel(): cur_slot(0), m_close_log(0)
     {
+        LOG_DEBUG("using time wheel");
         for(int i = 0; i < N; i++)
         {
             slots[i] = nullptr;
@@ -73,61 +67,91 @@ public:
             }
         }
     }
-
-    // 根据定时值timeout创建一个定时器，并插入相应的槽中
-    tw_timer* add_timer(int timeout, client_data* user_data, void (*cb_func)(client_data*))
+    
+    // 创建一个定时器，并插入相应的槽中
+    void add_timer(base_timer* timer)
     {
+        tw_timer* tmp_timer = dynamic_cast<tw_timer*>(timer);
+        int timeout = tmp_timer->expire;
         if(timeout < 0)
         {
-            return nullptr;
+            return;
         }
+
         int ticks = ticks < SI ? SI : timeout / SI;
         int rotation = ticks / N;
         int ts = (cur_slot + (ticks % N)) % N;
 
-        tw_timer* timer = new tw_timer(rotation, ts);
-        timer->user_data = user_data;
-        timer->cb_func = cb_func;
-        // LOG_DEBUG("current ts is: %d", ts);
-        // cout << "current ts is: " << ts << endl;
+        tmp_timer->reset_tw_timer(rotation, ts);
         if(slots[ts] == nullptr)
         {
-            slots[ts] = timer;
+            slots[ts] = tmp_timer;
         }
         else
         {
-            timer->next = slots[ts];
-            slots[ts]->prev = timer;
-            slots[ts] = timer;
+            tmp_timer->next = slots[ts];
+            slots[ts]->prev = tmp_timer;
+            slots[ts] = tmp_timer;
         }
-        return timer;
+        return;
     }
 
+
+    // // 根据定时值timeout创建一个定时器，并插入相应的槽中
+    // tw_timer* add_timer(client_data* user_data, void (*cb_func)(client_data*))
+    // {
+    //     if(expire < 0)
+    //     {
+    //         return nullptr;
+    //     }
+    //     int ticks = ticks < SI ? SI : timeout / SI;
+    //     int rotation = ticks / N;
+    //     int ts = (cur_slot + (ticks % N)) % N;
+
+    //     tw_timer* timer = new tw_timer(rotation, ts);
+    //     timer->user_data = user_data;
+    //     timer->cb_func = cb_func;
+    //     // LOG_DEBUG("current ts is: %d", ts);
+    //     // cout << "current ts is: " << ts << endl;
+    //     if(slots[ts] == nullptr)
+    //     {
+    //         slots[ts] = timer;
+    //     }
+    //     else
+    //     {
+    //         timer->next = slots[ts];
+    //         slots[ts]->prev = timer;
+    //         slots[ts] = timer;
+    //     }
+    //     return timer;
+    // }
+
     // 删除目标定时器
-    void del_timer(tw_timer* timer)
+    void del_timer(base_timer* timer)
     {
-        if(!timer)
+        tw_timer* tmp_timer = dynamic_cast<tw_timer*>(timer);
+        if(!tmp_timer)
         {
             return;
         }
         // 定位到ts所在的槽
-        int ts = timer->time_slot;
+        int ts = tmp_timer->time_slot;
         // 如果目标timer是头节点，则直接删除
-        if(timer == slots[ts])
+        if(tmp_timer == slots[ts])
         {
-            slots[ts] = timer->next;
+            slots[ts] = tmp_timer->next;
             if(slots[ts])
                 slots[ts]->prev = NULL;
-            delete timer;
+            delete tmp_timer;
         }
         else
         {
-            timer->prev->next = timer->next;
-            if(timer->next)
+            tmp_timer->prev->next = tmp_timer->next;
+            if(tmp_timer->next)
             {
-                timer->next->prev = timer->prev;
+                tmp_timer->next->prev = tmp_timer->prev;
             }
-            delete timer;
+            delete tmp_timer;
         }
         
     }
@@ -135,6 +159,7 @@ public:
     // 心跳，时间轮向前滚动一个槽间隔
     void tick()
     {
+        LOG_DEBUG("wheel timer tick");
         tw_timer* tmp = slots[cur_slot];
         // LOG_DEBUG("current slot is %d\n", cur_slot);
         while(tmp)
@@ -178,61 +203,62 @@ public:
     }
 
     // 调整定时器位置
-    void adjust_timer(tw_timer* timer)
+    void adjust_timer(base_timer* timer)
     {
-        if(!timer)
+        tw_timer* tmp_timer = dynamic_cast<tw_timer*>(timer);
+        if(!tmp_timer)
         {
             return;
         }
         // tw_timer *tmp = timer->next;
         // 被调整的定时器是头节点
-        int ts = timer->time_slot;
-        if (slots[ts] == timer)
+        int ts = tmp_timer->time_slot;
+        if (slots[ts] == tmp_timer)
         {
-            slots[ts] = timer->next;
+            slots[ts] = tmp_timer->next;
             if(slots[ts])
             {
-                timer->next->prev = nullptr;
+                tmp_timer->next->prev = nullptr;
             }
-            timer->next = nullptr;
+            tmp_timer->next = nullptr;
 
             // 向后延长15个time slot
             ts += 3;
             ts = (cur_slot + ts) % N;
-            timer->time_slot = ts;
+            tmp_timer->time_slot = ts;
             if(slots[ts] == nullptr)
             {
-                slots[ts] = timer;
+                slots[ts] = tmp_timer;
             }
             else
             {
-                timer->next = slots[ts];
-                slots[ts]->prev = timer;
-                slots[ts] = timer;
+                tmp_timer->next = slots[ts];
+                slots[ts]->prev = tmp_timer;
+                slots[ts] = tmp_timer;
             }
         }
         // 被调整的定时器节点不是头节点
         else
         {
-            timer->prev->next = timer->next;
-            if(timer->next)
-                timer->next->prev = timer->prev;
-            timer->next = nullptr;
-            timer->prev = nullptr;
+            tmp_timer->prev->next = tmp_timer->next;
+            if(tmp_timer->next)
+                tmp_timer->next->prev = tmp_timer->prev;
+            tmp_timer->next = nullptr;
+            tmp_timer->prev = nullptr;
 
             // 向后延长3个time slot
             ts += 3;
             ts = (cur_slot + ts) % N;
-            timer->time_slot = ts;
+            tmp_timer->time_slot = ts;
             if(slots[ts] == nullptr)
             {
-                slots[ts] = timer;
+                slots[ts] = tmp_timer;
             }
             else
             {
-                timer->next = slots[ts];
-                slots[ts]->prev = timer;
-                slots[ts] = timer;
+                tmp_timer->next = slots[ts];
+                slots[ts]->prev = tmp_timer;
+                slots[ts] = tmp_timer;
             }
         }
     }
@@ -248,7 +274,6 @@ private:
     int cur_slot;
     int m_close_log;
 };
-
 
 
 #endif
