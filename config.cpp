@@ -30,11 +30,14 @@ Config::Config(){
 
     //并发模型,默认是proactor
     actor_model = 0;
+
+    // 定时器类型, 默认升序链表
+    timer_type = 1;
 }
 
 void Config::parse_arg(int argc, char*argv[]){
     int opt;
-    const char *str = "p:l:m:o:s:t:c:a:";
+    const char *str = "p:l:m:o:s:t:c:a:T:";
     while ((opt = getopt(argc, argv, str)) != -1)
     {
         switch (opt)
@@ -77,6 +80,11 @@ void Config::parse_arg(int argc, char*argv[]){
         case 'a':
         {
             actor_model = atoi(optarg);
+            break;
+        }
+        case 'T':
+        {
+            timer_type = atoi(optarg);
             break;
         }
         default:

@@ -42,6 +42,9 @@ public:
 
     //并发模型选择
     int actor_model;
+
+    // 定时器选择
+    int timer_type;
 };
 
 #endif
