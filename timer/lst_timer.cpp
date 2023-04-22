@@ -19,7 +19,7 @@ sort_timer_lst::~sort_timer_lst()
     }
 }
 // 添加定时器
-void sort_timer_lst::add_timer(base_timer *timer)
+void sort_timer_lst::add_timer (base_timer *timer)
 {
     list_timer* tmp_timer =  dynamic_cast<list_timer*>(timer);
     if (!tmp_timer)

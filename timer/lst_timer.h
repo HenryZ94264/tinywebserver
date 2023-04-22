@@ -38,6 +38,7 @@ class list_timer;
 //     // tw_timer *timer;
 // };
 
+// 链表定时器，继承自基类定时器类
 class list_timer : public base_timer
 {
 public:
@@ -48,6 +49,7 @@ public:
     list_timer *next;
 };
 
+// 通过升序链表来组织定时器，继承自定时器数据结构类
 class sort_timer_lst : public timer_structure
 {
 public:
@@ -55,10 +57,10 @@ public:
     sort_timer_lst();
     ~sort_timer_lst();
 
-    void add_timer(base_timer *timer);
-    void adjust_timer(base_timer *timer);
-    void del_timer(base_timer *timer);
-    void tick();
+    void add_timer(base_timer *timer) override;
+    void adjust_timer(base_timer *timer) override;
+    void del_timer(base_timer *timer) override;
+    void tick() override;
 
 private:
     void add_timer(list_timer *timer, list_timer *lst_head);

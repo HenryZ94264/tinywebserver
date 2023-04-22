@@ -69,7 +69,7 @@ public:
     }
     
     // 创建一个定时器，并插入相应的槽中
-    void add_timer(base_timer* timer)
+    void add_timer(base_timer* timer) override
     {
         tw_timer* tmp_timer = dynamic_cast<tw_timer*>(timer);
         int timeout = tmp_timer->expire;
@@ -127,7 +127,7 @@ public:
     // }
 
     // 删除目标定时器
-    void del_timer(base_timer* timer)
+    void del_timer(base_timer* timer) override
     {
         tw_timer* tmp_timer = dynamic_cast<tw_timer*>(timer);
         if(!tmp_timer)
@@ -157,7 +157,7 @@ public:
     }
 
     // 心跳，时间轮向前滚动一个槽间隔
-    void tick()
+    void tick() override
     {
         LOG_DEBUG("wheel timer tick");
         tw_timer* tmp = slots[cur_slot];
@@ -203,7 +203,7 @@ public:
     }
 
     // 调整定时器位置
-    void adjust_timer(base_timer* timer)
+    void adjust_timer(base_timer* timer) override
     {
         tw_timer* tmp_timer = dynamic_cast<tw_timer*>(timer);
         if(!tmp_timer)

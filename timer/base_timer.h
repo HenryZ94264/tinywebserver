@@ -35,6 +35,7 @@ struct client_data
     base_timer *timer;      // 定时器
 };
 
+// 基类定时器，只有一个定时器
 class base_timer
 {
 public:
@@ -48,6 +49,7 @@ public:
     client_data *user_data;     // 连接资源
 };
 
+// 定时器数据结构，用于组织多个定时器
 class timer_structure
 {
 public:
