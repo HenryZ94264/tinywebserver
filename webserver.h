@@ -14,6 +14,10 @@
 
 #include "./threadpool/threadpool.h"
 #include "./http/http_conn.h"
+#include "./timer/base_timer.h"
+#include "./timer/lst_timer.h"
+#include "./timer/wheel_timer.h"
+#include "./timer/utils.h"
 
 const int MAX_FD = 65536;           //最大文件描述符
 const int MAX_EVENT_NUMBER = 10000; //最大事件数
@@ -27,7 +31,7 @@ public:
 
     void init(int port , string user, string passWord, string databaseName,
               int log_write , int opt_linger, int trigmode, int sql_num,
-              int thread_num, int close_log, int actor_model);
+              int thread_num, int close_log, int actor_model, int timer_type);
 
     void thread_pool();
     void sql_pool();
@@ -35,11 +39,13 @@ public:
     void trig_mode();
     void eventListen();
     void eventLoop();
-    void timer(int connfd, struct sockaddr_in client_address);
-    void adjust_timer(util_timer *timer);
-    void adjust_timer(tw_timer* timer);
-    void deal_timer(util_timer *timer, int sockfd);
-    void deal_timer(tw_timer* timer, int sockfd);
+    void init_timer(int connfd, struct sockaddr_in client_address);
+    // void adjust_timer(list_timer *timer);
+    // void adjust_timer(tw_timer* timer);
+    // void deal_timer(list_timer *timer, int sockfd);
+    // void deal_timer(tw_timer* timer, int sockfd);
+    void adjust_timer(base_timer* timer);
+    void deal_timer(base_timer* timer, int sockfd);
     bool dealclinetdata();
     bool dealwithsignal(bool& timeout, bool& stop_server);
     void dealwithread(int sockfd);
@@ -78,6 +84,7 @@ public:
     int m_CONNTrigmode;
 
     //定时器相关
+    int m_timer_type;
     client_data *users_timer;
     Utils utils;
 };
