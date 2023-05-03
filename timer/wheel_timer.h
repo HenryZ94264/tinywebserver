@@ -44,7 +44,6 @@ public:
     
     time_wheel(): cur_slot(0), m_close_log(0)
     {
-        LOG_DEBUG("using time wheel");
         for(int i = 0; i < N; i++)
         {
             slots[i] = nullptr;
@@ -159,7 +158,8 @@ public:
     // 心跳，时间轮向前滚动一个槽间隔
     void tick() override
     {
-        LOG_DEBUG("wheel timer tick");
+        if(m_close_log == 0)
+            LOG_DEBUG("wheel timer tick");
         tw_timer* tmp = slots[cur_slot];
         // LOG_DEBUG("current slot is %d\n", cur_slot);
         while(tmp)

@@ -3,7 +3,7 @@
 
 #include "lst_timer.h"
 #include "wheel_timer.h"
-
+#include "heap_timer.h"
 
 class Utils
 {
@@ -19,7 +19,7 @@ public:
         delete m_timer;
     }
 
-    void init(int timeslot, int timer_type);
+    void init(int timeslot, int timer_type, int m_close_log);
 
     //对文件描述符设置非阻塞
     int setnonblocking(int fd);

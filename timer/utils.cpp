@@ -1,17 +1,22 @@
 #include "utils.h"
 #include "../http/http_conn.h"
 
-void Utils::init(int timeslot, int timer_type)
+void Utils::init(int timeslot, int timer_type, int m_close_log)
 {
     m_TIMESLOT = timeslot;
     if(timer_type == 0)
     {
-        sort_timer_lst* timer = new sort_timer_lst();
+        sort_timer_lst* timer = new sort_timer_lst(m_close_log);
         m_timer = timer; 
     }
     else if(timer_type == 1)
     {
-        time_wheel* timer = new time_wheel();
+        time_wheel* timer = new time_wheel(m_close_log);
+        m_timer = timer;
+    }
+    else if(timer_type==2)
+    {
+        time_heap* timer = new time_heap();
         m_timer = timer;
     }
 }

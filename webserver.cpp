@@ -133,7 +133,7 @@ void WebServer::eventListen()
     ret = listen(m_listenfd, 5);
     assert(ret >= 0);
 
-    utils.init(TIMESLOT, m_timer_type);
+    utils.init(TIMESLOT, m_timer_type, m_close_log);
 
     //epoll创建内核事件表
     epoll_event events[MAX_EVENT_NUMBER];
@@ -159,13 +159,13 @@ void WebServer::eventListen()
     Utils::u_pipefd = m_pipefd;
     Utils::u_epollfd = m_epollfd;
 }
-// 有序定时器链表的初始化
+// 定时器的初始化
 void WebServer::init_timer(int connfd, struct sockaddr_in client_address)
 {
     users[connfd].init(connfd, client_address, m_root, m_CONNTrigmode, m_close_log, m_user, m_passWord, m_databaseName);
 
-    //初始化client_data数据
-    //创建定时器，设置回调函数和超时时间，绑定用户数据，将定时器添加到链表中
+    // 初始化client_data数据
+    // 创建定时器，设置回调函数和超时时间，绑定用户数据，将定时器添加到链表中
     users_timer[connfd].address = client_address;
     users_timer[connfd].sockfd = connfd;
     time_t cur = time(NULL);    // unix时间
@@ -173,11 +173,13 @@ void WebServer::init_timer(int connfd, struct sockaddr_in client_address)
     // 升序链表
     if(m_timer_type == 0)
     {
-        list_timer *timer = new list_timer;     // 定时器临时变量
+        list_timer *timer = new list_timer;     // 定时器
+        // std::shared_ptr<list_timer> timer = make_shared<list_timer>();
         timer->user_data = &users_timer[connfd];    // 设置定时器对应的连接资源
         timer->cb_func = cb_func;   // 回调函数
         timer->expire = cur + 3 * TIMESLOT;     // 设置超时值
         users_timer[connfd].timer = timer;      // 创建该连接对应的定时器，初始化为前述的临时变量
+        // LOG_DEBUG("shared ptr's count: %d", timer.use_count() );
         utils.m_timer->add_timer(timer);     // 将该定时器加入到升序链表中
     }
     else if(m_timer_type == 1)       // 时间轮
@@ -192,8 +194,8 @@ void WebServer::init_timer(int connfd, struct sockaddr_in client_address)
     
 }
 
-//若有数据传输，则将定时器往后延迟3个单位
-//并对新的定时器在链表上的位置进行调整
+// 若有数据传输，则将定时器往后延迟3个单位
+// 并对新的定时器在链表上的位置进行调整
 void WebServer::adjust_timer(base_timer *timer)
 {
     if(m_timer_type == 0)

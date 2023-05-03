@@ -25,7 +25,7 @@
 // #include "../log/log.h"
 #include "../log/log.h"
 
-class base_timer;
+class base_timer;   // 前向声明
 
 // 包含一个client address, 连接的sockfd以及定时器
 struct client_data
@@ -55,7 +55,7 @@ class timer_structure
 public:
     timer_structure(int m_close_log) {};
     timer_structure() {};
-    ~timer_structure() {};
+    virtual ~timer_structure() {};
 
     virtual void add_timer(base_timer *timer) = 0;
     virtual void adjust_timer(base_timer* timer) = 0;

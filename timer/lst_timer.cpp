@@ -4,8 +4,9 @@
 // sort_timer_lst::sort_timer_lst(): m_close_log(0)
 sort_timer_lst::sort_timer_lst() : head(nullptr), tail(nullptr), m_close_log(0)
 {
-    LOG_DEBUG("using list timer");
 }
+
+sort_timer_lst::sort_timer_lst(int m_close_log): head(nullptr), tail(nullptr), m_close_log(m_close_log) {}
 
 
 sort_timer_lst::~sort_timer_lst()
@@ -79,6 +80,7 @@ void sort_timer_lst::del_timer(base_timer *timer)
     }
     if ((tmp_timer == head) && (tmp_timer == tail))
     {
+
         delete tmp_timer;
         head = NULL;
         tail = NULL;
@@ -105,7 +107,8 @@ void sort_timer_lst::del_timer(base_timer *timer)
 // 定时任务处理函数
 void sort_timer_lst::tick()
 {
-    LOG_DEBUG("sort list timer tick");
+    if(m_close_log == 0)
+        LOG_DEBUG("sort list timer tick");
     if (!head)
     {
         return;

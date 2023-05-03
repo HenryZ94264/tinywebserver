@@ -14,7 +14,7 @@ Config::Config(){
     LISTENTrigmode = 0;
 
     //connfd触发模式，默认LT
-    CONNTrigmode = 0;
+    CONNTrigmode = 1;
 
     //优雅关闭链接，默认不使用
     OPT_LINGER = 0;
